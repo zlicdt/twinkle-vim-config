@@ -2,6 +2,7 @@
 
 A sufficiently good Vim configuration for everyday use.
 
+[中文README](./docs/README.zh_CN.md)
 ## Pros.
 * It contains a autocomplete plugin that can autocomplete a lot languages source file.
 * It contains a status bar from Airline plugin with surprisingly beautiful.

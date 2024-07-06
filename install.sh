@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ -f /etc/arch-release ]; then
-    echo "操作系统是Arch Linux，继续执行脚本。" >/dev/null
+    echo -e "\033[38;5;47m[PASS]\033[0mCurrent OS is \033[38;5;81mArch Linux\033[0m, continue..."
 else
     echo -e "\033[31m[ERROR]\033[0mCurrent OS is not \033[38;5;81mArch Linux\033[0m, process terminated."
     exit 1
