@@ -21,6 +21,8 @@ else
     echo -e "\033[38;5;47m[SUCCESS]\033[0m"
 fi
 
+original_dir=$(pwd)
+
 echo -e "\033[38;5;81mInstalling Vim-Plug...\033[0m" 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -31,11 +33,12 @@ cp ./sources/vimrc ~/.vimrc >/dev/null
 echo -e "\033[38;5;47m[SUCCESS]\033[0m"
 
 echo -e "\033[38;5;81mInstalling Plugins...\033[0m"
-vim +PlugInstall +qall >/dev/null
+vim +PlugInstall +qall
 cd ~/.vim/plugged/YouCompleteMe && ./install.py --clangd-completer
-vim +YcmRestartServer >/dev/null
+vim +YcmRestartServer
 echo -e "\033[38;5;47m[SUCCESS]\033[0m"
 
 echo -e "\033[38;5;81mInstalling fonts that Airline Required...\033[0m"
+cd "$original_dir" >/dev/null
 ./sources/installfonts.sh >/dev/null
 echo -e "\033[38;5;47m[SUCCESS]\033[0m"
