@@ -1,6 +1,6 @@
 # Twinkle Vim Config
 
-A sufficiently good Vim configuration for everyday use.
+A sufficiently good Vim configuration for daily use.
 
 ## Pros.
 * It contains a autocomplete plugin that can autocomplete a lot languages source file.
