@@ -9,7 +9,7 @@ fi
 
 if [ -f "CONFIRM" ]; then
     echo -e "\033[38;5;81mInstalling requirements...\033[0m"
-    pacman -S git go nodejs npm vim jdk-openjdk cmake base-devel --noconfirm
+    sudo pacman -S git go nodejs npm vim jdk-openjdk cmake base-devel --noconfirm
     echo -e "\033[38;5;47m[SUCCESS]\033[0m"
 else
     echo -e "\033[38;5;81mCloneing repository...\033[0m"
