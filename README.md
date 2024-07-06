@@ -21,11 +21,15 @@ cd twinkle-vim-config
 It would be done.
 
 But in order to be able to use Airline theme normally, you should change the terminal font to a powerline font.
+
 Powerline fonts has been installed with the script just now, just switch to one of them.
+
 ---
 ## Contribute
+
 Fork this repository to modify, and send pull request.
 ---
 ## License
-GPL 3.0
+GPL v3.0
+
 zlicdt 2024
