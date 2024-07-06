@@ -1,6 +1,6 @@
 # Twinkle Vim Config
 
-A sufficiently good Vim configuration for everyday use.
+A sufficiently good Vim configuration for daily use.
 
 [中文README](./docs/README.zh_CN.md)
 ## Pros.
