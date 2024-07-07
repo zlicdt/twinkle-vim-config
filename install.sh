@@ -17,7 +17,7 @@ else
     cd twinkle-vim-config >/dev/null
     echo -e "\033[38;5;47m[SUCCESS]\033[0m"
     echo -e "\033[38;5;81mInstalling requirements...\033[0m"
-    pacman -S git go nodejs npm vim jdk-openjdk cmake base-devel --noconfirm
+    pacman -S git go nodejs npm vim jdk-openjdk cmake base-devel rust --noconfirm
     echo -e "\033[38;5;47m[SUCCESS]\033[0m"
 fi
 
@@ -34,7 +34,7 @@ echo -e "\033[38;5;47m[SUCCESS]\033[0m"
 
 echo -e "\033[38;5;81mInstalling Plugins...\033[0m"
 vim +PlugInstall +qall
-cd ~/.vim/plugged/YouCompleteMe && ./install.py --clangd-completer
+cd ~/.vim/plugged/YouCompleteMe && ./install.py --all
 vim +YcmRestartServer
 echo -e "\033[38;5;47m[SUCCESS]\033[0m"
 
