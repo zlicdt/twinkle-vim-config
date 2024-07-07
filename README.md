@@ -2,6 +2,8 @@
 
 A sufficiently good Vim configuration for daily use.
 
+![Preview](./docs/display.png)
+
 [中文README](./docs/README.zh_CN.md)
 ## Pros.
 * It contains a autocomplete plugin that can autocomplete a lot languages source file.
