@@ -8,6 +8,7 @@ A sufficiently good Vim configuration for daily use.
 ## Pros.
 * It contains a autocomplete plugin that can autocomplete a lot languages source file.
 * It contains a status bar from Airline plugin with surprisingly beautiful.
+* And it contains a file explorer that easy to use.
 
 ## Installation
 Clone this repository and run `install.sh`.
