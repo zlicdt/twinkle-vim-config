@@ -1,0 +1,4 @@
+# This file is for install.sh to confirm current directory is main repository.
+# If not, the install.sh will clone repository to current location and cd to it.
+
+# DO NOT DELETE THIS FILE ENLESS YOU WANT CLONE REPOSITORY AGAIN.
