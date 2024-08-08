@@ -5,7 +5,7 @@
 # Warning: This script may cause incorrect installation and be unable to reset if it is terminated during execution.
 # Note: This script won't install whole twinkle vim config.
 
-BrewCommand="brew install font-sf-mono-for-powerline"
+BrewCommand="brew install font-sf-mono-for-powerline font-meslo-lg-nerd-font"
 
 if [[ "$(uname)" == "Darwin" ]]; then
     echo -e "\033[38;5;47m[PASS]\033[0mCurrent OS is macOS, continue..."
