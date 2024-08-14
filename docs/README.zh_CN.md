@@ -2,12 +2,15 @@
 
 一个对日常使用非常友好的 Vim 配置.
 
-<img src="./display.png" class="display">
-<style type="text/css">
-    .display{
+<p>
+    <img alt="logo" src="./display.png" class="display">
+    <style type="text/css">
+        .display{
         border-radius:7px;
     }
-</style>
+    </style>
+</p>
+
 
 ## 优点
 * 包含一个基于 Airline 插件的非常美观的状态栏.
