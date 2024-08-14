@@ -2,7 +2,7 @@
 
 一个对日常使用非常友好的 Vim 配置.
 
-![display](/Users/zlicdt/twinkle-vim-config/docs/display.png)
+![display](./docs/display.png)
 
 ## 优点
 * 包含一个基于 Airline 插件的非常美观的状态栏.
