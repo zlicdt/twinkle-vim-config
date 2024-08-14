@@ -4,7 +4,7 @@
 # Tips: This script need Arch Linux environment.
 # Warning: This script may cause incorrect installation and be unable to reset if it is terminated during execution.
 
-InstallRequirementsScript="sudo pacman -S git go nodejs npm vim jdk-openjdk cmake base-devel rust rust-analyzer --noconfirm"
+InstallRequirementsScript="sudo pacman -S git vim base-devel --noconfirm"
 
 if [ -f /etc/arch-release ]; then
     echo -e "\033[38;5;47m[PASS]\033[0mCurrent OS is \033[38;5;81mArch Linux\033[0m, continue..."
@@ -48,8 +48,6 @@ echo -e "\033[38;5;47m[SUCCESS]\033[0m"
 
 echo -e "\033[38;5;81mInstalling Plugins...\033[0m"
 vim +PlugInstall +qall
-cd ~/.vim/plugged/YouCompleteMe && ./install.py --all
-vim +YcmRestartServer
 echo -e "\033[38;5;47m[SUCCESS]\033[0m"
 
 echo -e "\033[38;5;81mInstalling fonts that Airline Required...\033[0m"

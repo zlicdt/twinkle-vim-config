@@ -1,12 +1,15 @@
 # Twinkle Vim Config
 
 A sufficiently good Vim configuration for daily use.
-
-![Preview](./docs/display.png)
-
+<img src="./docs/display.png" class="display">
+<style type="text/css">
+    .display{
+        border-radius:7px;
+    }
+</style>
 [中文README](./docs/README.zh_CN.md)
+
 ## Pros.
-* It contains a autocomplete plugin that can autocomplete a lot languages source file.
 * It contains a status bar from Airline plugin with surprisingly beautiful.
 * And it contains a file explorer that easy to use.
 

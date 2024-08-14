@@ -2,10 +2,14 @@
 
 一个对日常使用非常友好的 Vim 配置.
 
-![预览](./display.png)
+<img src="./display.png" class="display">
+<style type="text/css">
+    .display{
+        border-radius:7px;
+    }
+</style>
 
 ## 优点
-* 包含一个自动补全插件, 可以补全一堆语言的源文件.
 * 包含一个基于 Airline 插件的非常美观的状态栏.
 * 还包含一个易用的文件管理器.
 
