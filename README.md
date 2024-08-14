@@ -1,12 +1,8 @@
 # Twinkle Vim Config
 
 A sufficiently good Vim configuration for daily use.
-<img src="./docs/display.png" class="display">
-<style type="text/css">
-    .display{
-        border-radius:7px;
-    }
-</style>
+![display](/Users/zlicdt/twinkle-vim-config/docs/display.png)
+
 [中文README](./docs/README.zh_CN.md)
 
 ## Pros.
